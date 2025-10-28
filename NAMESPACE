@@ -1,0 +1,10 @@
+
+import(polycor) 
+import(dplyr)
+import(cluster)
+import(graphics)
+importFrom("stats", "cor", "cor.test", "p.adjust", "pchisq")
+importFrom("psych", "cor.smooth")
+export(UFS)export(HCPM)export(FS_barplot)
+export(RedRate)
+export(JaccardRate)
